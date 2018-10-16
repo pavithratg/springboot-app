@@ -1,0 +1,1 @@
+INSERT INTO product (id, product_id, description, image_url, price) VALUES (1, 1111, 'Spring Boot - Spring Data JPA with Hibernate and H2 Web Console', 'http://example.come/image',567)
