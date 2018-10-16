@@ -1,15 +1,16 @@
 package org.eviac.blog.service;
 
-import java.util.List;
+import java.util.Optional;
+
 import org.eviac.blog.model.Product;
 
 public interface ProductService {
 
   public void saveProduct(Product product);
 
-  public Product getProductById(int id);
+  public Optional<Product> getProductById(int id);
 
-  public List<Product> listAllProducts();
+  public Iterable<Product> listAllProducts();
 
   public void deleteProduct(int id);
 }
