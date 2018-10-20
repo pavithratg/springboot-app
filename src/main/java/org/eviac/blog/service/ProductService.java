@@ -6,7 +6,7 @@ import org.eviac.blog.model.Product;
 
 public interface ProductService {
 
-  public void saveProduct(Product product);
+  public Product saveProduct(Product product);
 
   public Optional<Product> getProductById(int id);
 
